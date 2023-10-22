@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 # from hash_encoder import hash_encode
 from sklearn.model_selection import GridSearchCV
-import category_encoders as ce
+# import category_encoders as ce
 from sklearn.ensemble import RandomForestRegressor
 st.set_page_config(page_title="Viz Demo")
 # selected_page = st.sidebar.radio("", ["Home", "Prediction", "Analysis"])
