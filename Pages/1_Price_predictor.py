@@ -8,9 +8,9 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestRegressor
 st.set_page_config(page_title="Viz Demo")
 # selected_page = st.sidebar.radio("", ["Home", "Prediction", "Analysis"])
-with open('C:/Users/Asus/PycharmProjects/capstone_project/df.pkl', 'rb') as file:
+with open('df.pkl', 'rb') as file:
     df = pickle.load(file)
-with open('C:/Users/Asus/PycharmProjects/capstone_project/pipeline.pkl', 'rb') as file:
+with open('pipeline.pkl', 'rb') as file:
     pipeline = pickle.load(file)
 
 # st.dataframe(pipeline)
